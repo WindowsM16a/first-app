@@ -1,11 +1,14 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
+import HomeCards from "./components/homecards";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
+      <HomeCards />
+      {/* <Hero title="Test title" subtitle="this is the subtitle" /> */}
 
       {/* <!-- Developers and Employers --> */}
       <section className="py-4">
